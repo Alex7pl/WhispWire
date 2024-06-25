@@ -1,0 +1,102 @@
+#logo{
+    width: 55px;
+    height: 55px;
+    left: 10px;
+    position: relative;
+}
+
+#imgUsuario{
+    width: 70px;
+    height: 70px;
+    left: 10px;
+    position: relative;
+}
+
+#papelera{
+    width: 27px;
+    height: 27px;
+    margin-bottom: 10px;
+    right: 60px;
+    position: relative;
+}
+
+#textoLogo{
+    margin-top: 8px;
+    position: relative;
+}
+
+#formu{
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    #navBE {
+        margin-top: -70px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #navBE {
+        margin-top: -39px; 
+        position: relative;
+    }
+}
+
+.btn-transparent {
+    background-color: transparent; 
+    border: none;
+}
+
+.bandejaEntrada{
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: calc(100vh - 100px);
+    background-color: white;
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+}
+
+.bandejaCorreo{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: calc(100vh - 100px);
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.textoMensaje {
+    max-width: 90%;
+    max-height: 200px;
+    white-space: pre-wrap;
+}
+
+#tablaNormal tr {
+    text-align: center;
+}
+
+.table-dark-row {
+    background-color: #e7e7e7;
+}
+
+.xCorreo{
+    margin-bottom: 8px; 
+    margin-right: 20px;
+}
+
+#navCorreo{
+    border-bottom: 1px solid black;
+    margin-left: -2px;
+    margin-right: -2px;
+}
